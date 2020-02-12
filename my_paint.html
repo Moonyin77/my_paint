@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/paint-1266212_960_720.png"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/my_paint.css">
+    <title>Mon paint perdu</title>
+</head>
+<body>
+    <h2>MY PAINT PERDU</h2>
+    <div id="toolbar">
+        <button id="pen">Pen</button>
+        <input type="color" id="selectColor">
+        <button id ="eraser">Eraser</button>
+        <input type ="color" id="background" value="#ffffff">
+        <button id="line">Line</button>
+        <button id="circle">Circle</button>
+        <button id="rectangle">Rectangle</button>
+        <div id="fillbox">
+            <label for="fill">Fill :</label>
+            <input type="checkbox" id="fill" checked="checked">
+        </div>
+        <button id="clear">Clear</button>
+        <select name="sizes" id="size-select">
+            <option value="">--Brush size--</option>
+            <option value="1">1</option>
+            <option value="10">10</option>
+            <option value="15">15</option>
+            <option value="20">20</option>
+            <option value="25">25</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="60">60</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+    <div id="content">
+        <canvas id="paint"></canvas>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/my_paint.js"></script>
+</body>
+</html>

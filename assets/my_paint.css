@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/paint-1280557_1280.jpg");
+    background-size: cover;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(143, 42, 42);
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #eec335, 0 0 30px #eec335, 0 0 40px #eec335, 0 0 55px #eec335, 0 0 75px #eec335;
+    text-align: center;
+}
+
+#toolbar {
+    background-color: rgba(255, 166, 0, 0.171);
+}
+
+#paint {
+    background-color: white;
+    border: 4px solid orange;
+}
+
+#content {
+    width: 850px;
+    height: 550px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#paint {
+    width: 850px;
+    height: 550px;  
+}
+
+button, input, select {
+    background-color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(143, 42, 42);
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #eec335, 0 0 30px #eec335, 0 0 40px #eec335, 0 0 55px #eec335, 0 0 75px #eec335;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+    border: 2px solid orange;
+}
+
+button, select{
+    padding: 20px;
+}
+
+#fillbox{
+    border : 2px solid orange;
+    background: white;
+    display: inline-block;
+    padding: 20px 20px 12px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(143, 42, 42);
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #eec335, 0 0 30px #eec335, 0 0 40px #eec335, 0 0 55px #eec335, 0 0 75px #eec335;
+    
+}
+button:hover {
+    background-color: white;
+    color: orange;
+}
